@@ -1,0 +1,30 @@
+.videocard {
+    width: 360px;
+    height: 250px;
+    padding: 25px;
+    
+    color: white;
+    transition: transform 100ms ease-out;
+}
+
+.videocard:hover {
+    transform: scale(1.08);
+}
+
+.videocard > img {
+    height: 200px;
+    object-fit: contain;
+    width: 300px;
+}
+
+.videocard > .datenvote {
+    display: none;
+}
+
+.videocard:hover > .datenvote {
+    display:inline;
+}
+
+.videocard > h2 {
+    padding-top: 10px;
+}
