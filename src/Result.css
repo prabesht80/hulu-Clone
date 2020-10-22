@@ -1,6 +1,0 @@
-.results > div {  /*flipmove add its own div which lead to only one column tomake it 3*/
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
